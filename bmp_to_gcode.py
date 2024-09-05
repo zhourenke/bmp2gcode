@@ -1,3 +1,4 @@
+# 在使用 PIL 之前，需要 pip install pillow
 from PIL import Image
 
 # 设置下降的高度
