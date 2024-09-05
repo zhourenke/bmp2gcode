@@ -2,11 +2,12 @@
 from PIL import Image
 
 # 设置下降的高度
-Z_DOWN = 2
-Z_UP = 0
+Z_DOWN = 2  # 毫米
+Z_UP = 0  # 毫米
+
 XY_FEEDRATE = 8000  # X 和 Y 移动的速度
 Z_FEEDRATE = 5000  # Z 轴移动的速度
-SCALE_FACTOR = 0.25
+SCALE_FACTOR = 0.25  # 毫米/点
 
 
 def bitmap_to_gcode(image_path, output_path):
