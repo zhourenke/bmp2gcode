@@ -9,7 +9,7 @@ pip install pillow
 
 2. 修改代码开头部分的数值参数。对于使用 0.5 mm 墨水笔绘图的场景，建议毫米每点的值设为 0.25
 
-3. 调整图片分辨率，根据所需绘制总大小手动计算图片分辨率，计算公式为：$长或宽分辨率 = 实际绘图大小 (mm) \times 毫米每点$。
+3. 调整图片分辨率，根据所需绘制总大小手动计算图片分辨率，计算公式为：<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo>实际绘图大小</mo><mo stretchy="false">(</mo><mi>c</mi><mi>m</mi><mo stretchy="false">)</mo><mo>×</mo><mn>40</mn></math>
 
 4. 将图片文件处理成黑白位图，处理算法可以根据需要选择，一般建议选择扩散仿色
 

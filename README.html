@@ -18,8 +18,7 @@
 }
 
 </style>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+            
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -152,7 +151,7 @@
 <p>修改代码开头部分的数值参数。对于使用 0.5 mm 墨水笔绘图的场景，建议毫米每点的值设为 0.25</p>
 </li>
 <li>
-<p>调整图片分辨率，根据所需绘制总大小手动计算图片分辨率，计算公式为：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>长或宽分辨率</mtext><mo>=</mo><mtext>实际绘图大小</mtext><mo stretchy="false">(</mo><mi>m</mi><mi>m</mi><mo stretchy="false">)</mo><mo>×</mo><mtext>毫米每点</mtext></mrow><annotation encoding="application/x-tex">长或宽分辨率 = 实际绘图大小 (mm) \times 毫米每点</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord cjk_fallback">长或宽分辨率</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord cjk_fallback">实际绘图大小</span><span class="mopen">(</span><span class="mord mathnormal">mm</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord cjk_fallback">毫米每点</span></span></span></span>。</p>
+<p>调整图片分辨率，根据所需绘制总大小手动计算图片分辨率，计算公式为：<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mo>实际绘图大小</mo><mo stretchy="false">(</mo><mi>c</mi><mi>m</mi><mo stretchy="false">)</mo><mo>×</mo><mn>40</mn></math></p>
 </li>
 <li>
 <p>将图片文件处理成黑白位图，处理算法可以根据需要选择，一般建议选择扩散仿色</p>
@@ -166,7 +165,7 @@
 </ol>
 <p>得到生成好的代码以后，就可以丢到 CNC 软件中运行了~</p>
 
-            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
             
         </body>
         </html>
