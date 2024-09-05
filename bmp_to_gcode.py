@@ -5,9 +5,9 @@ from PIL import Image
 Z_DOWN = 2  # 毫米
 Z_UP = 0  # 毫米
 
-XY_FEEDRATE = 8000  # X 和 Y 移动的速度
-Z_FEEDRATE = 5000  # Z 轴移动的速度
-SCALE_FACTOR = 0.25  # 毫米/点
+XY_FEEDRATE = 4000  # X 和 Y 移动的速度
+Z_FEEDRATE = 2500  # Z 轴移动的速度
+SCALE_FACTOR = 0.3  # 毫米/点
 
 
 def bitmap_to_gcode(image_path, output_path):
